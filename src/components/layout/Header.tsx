@@ -22,7 +22,7 @@ export function Header() {
                     </Link>
 
                     {/* Navigation - Hidden on mobile, shown on md+ */}
-                    <ul className="hidden md:flex items-center gap-8">
+                    <ul className="hidden md:flex items-center gap-6">
                         {navItems.map((item) => (
                             <li key={item.href}>
                                 <Link
@@ -39,7 +39,7 @@ export function Header() {
                     <div className="flex items-center gap-4">
                         <Link href="/contact">
                             <Button size="sm" variant="primary">
-                                Join 330k+ Subscribers
+                                Join 3k+ Subscribers
                             </Button>
                         </Link>
 
