@@ -4,14 +4,21 @@ import Link from "next/link";
 export default function Home() {
   return (
     <Container>
-      <div className="py-20 sm:py-32">
-        <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+      <div className="py-20 rounded-2xl sm:py-32">
+        {/* <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
           Software Engineer, Creator, and Learner.
-        </h1>
-        <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400 max-w-2xl">
-          I&apos;m Nodir Makhkamov, a software engineer who loves building high-quality web applications and exploring new technologies.
-          Welcome to my digital garden where I share my projects and thoughts.
-        </p>
+        </h1> */}
+        <div className="flex  items-center justify-center gap-6 max-sm:flex-col ">
+          <img className="w-[400px] h-full" src="face.png" alt="Nodir Makhkamov" />
+          <div>
+            <h1 className="font-Gravi text-[44px]">Hey friends ✌️</h1>
+            <p className="mt-6  text-base text-[30px] text-zinc-900 max-w-2xl">
+              I&apos;m Nodir Makhkamov, a software engineer who loves building high-quality web applications and exploring new technologies.
+              <span className="text-bold">Welcome to my digital garden where I share my projects and thoughts.</span>
+            </p>
+          </div>
+        </div>
+
         <div className="mt-10 flex gap-6">
           <Link
             href="/contact"
