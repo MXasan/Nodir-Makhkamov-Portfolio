@@ -31,3 +31,19 @@ body {
   color: var(--foreground);
   font-family: var(--font-def);
 }
+
+.box-puzzel {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  background: #F9F6F3;
+  border-radius: 0.75rem;
+  border-radius: 12px;
+  padding: 3rem;
+  gap: 23px;
+}
+
+.container-width {
+  max-width: 1200px;
+  width: auto;
+}

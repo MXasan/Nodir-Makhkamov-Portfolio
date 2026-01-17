@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { Container } from '@/components/ui/Container';
 import { Button } from '@/components/ui/Button';
 // import { Logo } from '../../../public/nameLogo.png'
 
@@ -12,9 +11,9 @@ const navItems = [
 
 export function Header() {
     return (
-        <header className="container flex py-4 px-8 w-full max-w-7xl items-center justify-center mx-auto mt-6 rounded-t-2xl  top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-zinc-200/50 transition-all duration-300">
+        <header className="container flex py-4 px-8 w-full  items-center justify-center mx-auto mt-6 rounded-t-2xl  bg-background/90 backdrop-blur-md transition-all duration-300">
             {/* <Container> */}
-            <nav className="flex items-center justify-between h-16 w-full">
+            <nav className="flex items-center justify-between h-16 w-full  max-w-[1000px]">
                 {/* Logo */}
                 <Link href="/" className="flex items-center gap-2 group">
                     {/* <span className="text-2xl font-serif font-bold tracking-tight text-foreground group-hover:text-primary transition-colors">
