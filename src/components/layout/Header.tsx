@@ -14,7 +14,7 @@ export function Header() {
     return (
         <header className="container flex py-4 px-8   items-center w-7xl justify-center mx-auto mt-6 rounded-t-2xl  bg-background/90 backdrop-blur-md transition-all duration-300">
             {/* <Container> */}
-            <nav className="flex items-center justify-between h-16 w-full  max-w-[1000px]">
+            <nav className="flex items-center justify-between h-16 w-full  max-w-[1200px]">
                 {/* Logo */}
                 <Link href="/" className="flex items-center gap-2 group">
                     {/* <span className="text-2xl font-serif font-bold tracking-tight text-foreground group-hover:text-primary transition-colors">

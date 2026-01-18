@@ -7,11 +7,11 @@ export default function Home() {
   return (
     <Container>
       <div className=" flex items-center flex-col bg-background w-full rounded-b-2xl  ">
-        <div className="flex flex-col justify-between py-20  sm:py-32 md:py-4 max-w-[1000px]">
+        <div className="flex flex-col justify-between py-20  sm:py-32 md:py-4 max-w-[1200px]">
           {/* <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
           Software Engineer, Creator, and Learner.
         </h1> */}
-          <div className="flex container-width items-center justify-between gap-6  max-sm:flex-col ">
+          <div className="flex container-width items-center justify-between gap-12  max-sm:flex-col ">
             <img className="w-[400px] h-full" src="face.png" alt="Nodir Makhkamov" />
             <div>
               {/* <div className="flex items-center justify-start">
@@ -70,7 +70,7 @@ export default function Home() {
             I&apos;ve worked on various projects ranging from web apps to backend systems. Check out the <Link href="/projects" className="text-cyan-600 hover:text-cyan-500 underline decoration-cyan-500/30 underline-offset-4">projects page</Link> to see what I&apos;ve been working on.
           </p>
         </div>
-        
+
       </div >
       <GridBoxs />
     </Container>
