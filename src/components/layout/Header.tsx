@@ -21,7 +21,7 @@ export function Header() {
                     {/* <span className="text-2xl font-serif font-bold tracking-tight text-foreground group-hover:text-primary transition-colors">
                         Nodir Makhkamov
                     </span> */}
-                    <img className='w-[300px]' src='/nameLogo.png' alt="Nodir Makhkamov" />
+                    <img className='w-[200px] md:w-[300px]' src='/nameLogo.png' alt="Nodir Makhkamov" />
                 </Link>
 
                 {/* Navigation - Hidden on mobile, shown on md+ */}
