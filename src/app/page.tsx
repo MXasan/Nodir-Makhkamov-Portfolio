@@ -14,27 +14,13 @@ export default function Home() {
           <div className="flex container-width items-center justify-between gap-10 lg:gap-20  max-sm:flex-col ">
             <img className="w-[250] md:w-[300] lg:w-[400px] h-full" src="face.png" alt="Nodir Makhkamov" />
             <div className="flex items-center flex-col sm:justify-start sm:items-start">
-              <div className="flex items-center gap-2 text-4xl max-sm:mb-5 md:text-4xl lg:text-6xl xl:text-7xl font-serif font-bold relative">
-                <span>Hey</span>
-                <span className="relative inline-block">
-                  Friends
-
-                  <div className="absolute -bottom-5 left-0 w-full h-8">
-                    <Image
-                      src="/variant=2.svg"
-                      alt="underline"
-                      fill
-                      className="object-contain"
-                    />
-                  </div>
-
-                </span>
+              <div className="flex items-center gap-2 text-4xl max-sm:mb-5 md:text-4xl lg:text-6xl xl:text-7xl font-serif font-bold">
+                <p>Hey Friends</p>
                 <img
                   src="/variant=3.svg"
                   alt="underline"
                   className="mx-4 w-10 md:w-14 "
                 />
-
               </div>
               <p className="md:mt-3 lg:mt-6 text-base lg:text-xl xl:text-3xl text-zinc-900 max-w-2xl ">
                 I&apos;m Nodir Makhkamov, a software engineer who loves building high-quality web applications and exploring new technologies.
@@ -68,6 +54,6 @@ export default function Home() {
 
       </div >
       <GridBoxs />
-    </Container>
+    </Container >
   );
 }

@@ -1,5 +1,4 @@
 'use client'
-import React from 'react'
 import { useState } from 'react'
 import Link from 'next/link';
 
@@ -14,7 +13,7 @@ const Menu = () => {
         { href: '/services', label: 'Services' },
     ];
     return (
-        <div>
+        <div className='flex z-50'>
             <button
                 onClick={() => setIsOpen(!isOpen)}
                 className="relative z-50 flex flex-col gap-1 p-2"
@@ -33,7 +32,7 @@ const Menu = () => {
                 />
             </button>
             <div
-                className={`z-10 fixed top-0 right-0 h-full w-100 bg-white shadow-lg transition-transform duration-300 h-lvh ${isOpen ? 'translate-x-0' : 'translate-x-full hidden'}`}>
+                className={`fixed z-auto top-0 right-0 h-full w-100 bg-white shadow-lg transition-transform duration-300 h-lvh ${isOpen ? 'translate-x-0' : 'translate-x-full hidden'}`}>
                 <ul className="flex flex-col gap-10">
                     {navItems.map((item) => (
                         <li key={item.href}>
@@ -47,7 +46,6 @@ const Menu = () => {
                     ))}
                 </ul>
                 <nav className="flex flex-col gap-4 p-6">
-
                     {/* <a href="#" className="text-lg">Home</a>
                     <a href="#" className="text-lg">About</a>
                     <a href="#" className="text-lg">Services</a>
