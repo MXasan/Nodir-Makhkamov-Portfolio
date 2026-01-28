@@ -49,7 +49,7 @@ export function Header() {
                     </Link>
 
                     {/* Mobile Menu Button Placeholder */}
-                    <button className="lg:hidden p-2 text-foreground bg-amber-200 p-1.5 rounded-md">
+                    <button className="lg:hidden text-foreground bg-amber-200 p-1.5 rounded-md" title='menu'>
                         <Menu />
                     </button>
                 </div>
