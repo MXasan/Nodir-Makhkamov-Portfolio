@@ -78,6 +78,11 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+strong{
+  color: var(--foreground);
+}
+
+.prose  :where(blockquote):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
   color: var(--foreground);
 }

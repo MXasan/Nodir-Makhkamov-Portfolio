@@ -54,14 +54,14 @@ export default async function Article({ params }: { params: Promise<{ slug: stri
                         </h1>
                         <time
                             dateTime={article.date}
-                            className="flex items-center order-first text-base text-zinc-400 text-zinc-500"
+                            className="flex items-center order-first text-base text-zinc-500"
                         >
-                            <span className="h-4 w-0.5 rounded-full bg-zinc-200  bg-zinc-500" />
+                            <span className="h-4 w-0.5 rounded-full bg-zinc-500" />
                             <span className="ml-3">{article.date}</span>
                         </time>
                     </header>
-                    <div className="mt-8 prose prose-zinc prose-invert">
-                        <MDXRemote source={article.content} />
+                    <div className="mt-8 prose prose-zinc prose-invert text-foreground text-xl">
+                        <MDXRemote source={article.content}/>
                     </div>
                 </article>
             </div>

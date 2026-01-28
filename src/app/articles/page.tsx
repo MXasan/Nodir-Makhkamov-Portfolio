@@ -19,7 +19,7 @@ export default async function Articles() {
                     All Recent Articles
                 </h1>
 
-                <div className="grid gap-15 grid-cols-2">
+                <div className="grid gap-15 grid-cols-1 md:grid-cols-2">
                     {articles.map((article) => (
                         // <article key={article.slug} className="flex flex-col items-start realative group">
                         //     <h2 className="text-base font-semibold tracking-tight text-zinc-800">
@@ -64,7 +64,7 @@ export default async function Articles() {
                                     {article.date}
                                 </p>
                                 <p className="mt-2 text-zinc-900 text-xl line-clamp-3 h-[15vh]">
-                                    {article.description}
+                                    {article.description.slice(0, 110)}...
                                 </p>
                                 <div
                                     aria-hidden="true"
